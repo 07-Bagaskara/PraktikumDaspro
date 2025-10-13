@@ -12,6 +12,7 @@ program tersebut dengan menambahkan struktur ELSE!
 Percobaan 1”
 
 Jawaban:
+
 1.karena variabel uktLunas sudah bertipe data boolean yang sudah menyimpan nilai true/false.
 
 2.Pembayaran UKT terverifikasi
