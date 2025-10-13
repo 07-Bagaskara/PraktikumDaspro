@@ -1,0 +1,52 @@
+Pertanyaan
+1. Apa yang terjadi jika mahasiswa menjawab "No" pada pertanyaan bebas kompen?
+Mengapa demikian?
+2. Jelaskan maksud dari potongan kode berikut!
+3. Bagaimana alur pemeriksaan syarat mahasiswa dari awal sampai akhir? Jelaskan secara
+runtut untuk semua kondisi!
+
+Jawaban:
+
+1.Program akan menampilakn pesan "Gagal! Mahasiswa masih memiliki tanggungan kompen".
+
+Ini terjadi karena program hanya akan melanjutkan proses jika input untuk bebas kompen adalah "Ya".
+
+Jawaban selain "Ya" akan membuat kondisi if pertama tidak terpenuhi, sehingga program langsung mengeksekusi bagian else yang berisi pesan kegagalan tersebut.
+
+2.Kode tersebut adalah sebuah pernyataan kondisional yang berfungsi untuk memeriksa apakah syarat minimum jumlah bimbingan skripsi telah terpenuhi secara bersamaan.
+
+Kode ini verfungsi untuk memastikan bahwa mahasiswa hanya bisa dianggap lulus syarat bimbingan jika mereka sudah bimbingan minimal 8 kali dengan pembimbing 1 DAN minimal 4 kali dengan pembimbing 2.
+
+3.Alur pemeriksaan syarat mahasiswa
+
+1.Mulai Program: Program dimulai dan siap menerima input.
+
+2.Pengecekan Syarat Pertama (Bebas Kompen):
+
+Program akan bertanya: "Apakah mahasiswa sudah bebas kompen? (Ya/Tidak): ".
+
+Kondisi A (Jika jawaban "Ya"): Jika mahasiswa menjawab "Ya", program akan menganggap syarat pertama terpenuhi dan melanjutkan ke pengecekan syarat bimbingan.
+
+Kondisi B (Jika jawaban BUKAN "Ya"): Jika mahasiswa menjawab apapun selain "Ya" (misalnya "Tidak", "No", "Belum"), program akan langsung menyimpulkan bahwa syarat tidak terpenuhi. Pesan "Gagal! Mahasiswa masih memiliki tanggungan kompen" akan ditampilkan dan program berhenti di sini.
+
+3.Pengecekan Syarat Kedua (Jumlah Bimbingan):
+
+Jika lolos pengecekan pertama, program akan meminta input jumlah bimbingan:
+
+"Masukkan jumlah log bimbingan Pembimbing 1: " (disimpan di variabel bimbinganP1).
+
+"Masukkan jumlah log bimbingan Pembimbing 2: " (disimpan di variabel bimbinganP2).
+
+Selanjutnya, program memeriksa kedua nilai tersebut.
+
+Kondisi 2A (Semua Syarat Bimbingan Terpenuhi): Jika bimbinganP1 >= 8 DAN bimbinganP2 >= 4, maka mahasiswa dianggap memenuhi semua syarat. Pesan "Lulus! semua syarat terpenuhi. Mahasiswa boleh mendaftar ujian skripsi" akan ditampilkan.
+
+Kondisi 2B (Syarat Bimbingan Tidak Terpenuhi): Jika salah satu atau kedua syarat bimbingan tidak terpenuhi, program akan memeriksa lebih detail:
+
+Jika bimbinganP1 < 8 DAN bimbinganP2 < 4: Pesan yang muncul adalah "Gagal! log bimbingan P1 kurang dari 8 kali dan P2 kurang dari 4 kali".
+
+Jika hanya bimbinganP1 < 8: Pesan yang muncul adalah "Gagal! log bimbingan P1 belum mencapai 8 kali".
+
+Jika hanya bimbinganP2 < 4: Pesan yang muncul adalah "Gagal! log bimbingan P2 belum mencapai 4 kali".
+
+4.Selesai: Program menampilkan pesan akhir sesuai dengan kondisi yang terpenuhi.
