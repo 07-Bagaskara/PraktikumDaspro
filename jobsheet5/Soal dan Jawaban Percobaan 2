@@ -1,0 +1,14 @@
+Pertanyaan
+1. Apa fungsi dari sintaks break?
+2. Apa peran dari sintaks default pada struktur pemilihan SWITCH-CASE?
+3. Buat file baru dengan nama ifElseCetakKRSNoPresensi.java. File ini berisi program hasil
+transformasi dari program cetak KRS menggunakan struktur SWITCH-CASE yang telah
+dibuat ke dalam bentuk IF-ELSE IF-ELSE.
+4. Commit dan push hasil modifikasi Anda ke Github dengan pesan “Modifikasi
+Percobaan 2”
+
+Jawaban:
+
+1.Fungsi sintaks break digunakan untuk keluar dari blok switch dan melanjutkan eksekusi ke baris kode setelah blok tersebut
+
+2.Sintaks default pada switch-case adalah blok kode alternatif yang hanya akan dieksekusi jika nilai yang diperiksa tidak ada satupun yang cocok dari case yang ada
