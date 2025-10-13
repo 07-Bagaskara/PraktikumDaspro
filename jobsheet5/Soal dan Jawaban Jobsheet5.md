@@ -13,7 +13,11 @@ Percobaan 1”
 
 Jawaban:
 1.karena variabel uktLunas sudah bertipe data boolean yang sudah menyimpan nilai true/false.
+
 2.Pembayaran UKT terverifikasi
+
 Silakan cetak KRS dan minta tanda tangan DPA
+
 3.Sudah aku tambah struktur ELSE,jadi saat mengisikan nilai false,hasilnya akan berbeda dengan true
+
 4.Sudah
